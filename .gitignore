@@ -1,0 +1,63 @@
+#--- Emacs ---
+*~
+*.elc
+.cache/
+.dap-breakpoints
+.last-package-update-day
+.lsp-session-v1
+.mc-lists.el
+.nrepl-port
+.org-id-locations
+auto-save-list/
+bookmarks
+eclipse.jdt.ls/
+elisp-objects/
+elpa/
+eshell/
+history
+hgs-cache
+network-security.data
+personal.el
+custom.el
+places
+projectile-bookmarks.eld
+recentf
+tramp
+transient/
+url/
+workspace/
+# Uncomment the below if you want to ignore backup (autosave) files
+#[#]*[#]
+
+#--- Compiled files ---
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+#--- Packed files ---
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+# But not the plantuml jar file:
+!lib/plantuml.jar
+*.rar
+*.tar
+*.zip
+
+#--- Logs and databases ---
+*.log
+*.sql
+*.sqlite
+
+#--- OS junk ---
+.DS_Store
+__MACOSX/
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
